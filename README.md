@@ -8,8 +8,7 @@
 
 | 주제 | 설명 | 관련 파일 |
 |------|------|-----------|
-| 🚗 교통사고 통계 | 도로교통공단에서 월별 교통사고 발생 건수 크롤링 및 시각화 | ![image](https://github.com/user-attachments/assets/9be3433f-b928-4aa0-bac9-06ff7673b5b0)
- |
+| 🚗 교통사고 통계 | 도로교통공단에서 월별 교통사고 발생 건수 크롤링 및 시각화 | `traffic_accident_crawler.py` |
 | 🎥 CCTV 설치 현황 | 지자체별 CCTV 설치 개수 데이터 수집 | `cctv_status_scraper.py` |
 | 💼 연령별 취업자 수 | 통계청의 연령대별 취업 통계 자동 수집 및 그래프화 | `employment_by_age.py` |
 | 🛍️ 온라인 쇼핑몰 분석 | 온라인 쇼핑 카테고리별 인기 품목 및 금액 비교 분석 | `shopping_mall_analysis.py` |
@@ -24,21 +23,40 @@
 
 ## 📊 시각화 예시
 
-### ✅ 교통사고 월별 발생 추이
+### ✅ 교통사고 발생 추이
 
-![교통사고 시각화](images/traffic_chart.png)
+![image](https://github.com/user-attachments/assets/4d0a3782-3138-4e43-bef2-ccef7c0ab669)
 
-### ✅ 쇼핑몰 인기 품목 비율
 
-![쇼핑몰 분석](images/shopping_barplot.png)
+### ✅ CCTV 설치 현황
+
+![image](https://github.com/user-attachments/assets/2abff92e-8181-432e-9f8a-62d4a4fc605e)
+
+
+### ✅ 연령별 취업자 분석
+
+![image](https://github.com/user-attachments/assets/de88d028-06bb-42a7-820c-2a80dbef16d7)
+
+
+### ✅ 온라인 쇼핑몰 분석
+
+![image](https://github.com/user-attachments/assets/6493d9e1-d3d0-47ad-8e78-0d2605752fb9)
+
+
+### ✅ 인천공항 이용자 수 분석
+
+![image](https://github.com/user-attachments/assets/61219a28-9350-49e3-8c1c-8c79a2ed3be3)
+
+
+### ✅ 부산 지하철 이용자 수
+
+![image](https://github.com/user-attachments/assets/aedab7c8-caa9-4b48-a2b2-398c9b13c65f)
+
 
 ### ✅ 휘발유 가격 지역별 비교
 
-![주유소 분석](images/gas_price_comparison.png)
+![image](https://github.com/user-attachments/assets/10cdc5e3-2f8c-469c-9735-31b7cce0c07d)
 
-### ✅ 스타벅스 매장 밀도 지도
-
-![스타벅스 밀도](images/starbucks_density_map.png)
 
 ---
 
@@ -63,4 +81,21 @@
 python -m venv venv
 source venv/bin/activate   # (Windows는 venv\Scripts\activate)
 pip install -r requirements.txt
+
+
+📄 데이터 출처
+ - 도로교통공단
+
+ - 공공데이터포털
+
+ - 서울시 열린데이터광장
+
+ - 통계청 KOSIS
+
+ - 한국석유공사 오피넷
+
+ - 스타벅스 매장정보 페이지
+
+ - 인스타그램 공개 웹 페이지
+
 
